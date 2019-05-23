@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <input type="button" value="去第二页"  @click="$router.push('/two')"/>
     <div id="nav">
       <router-link to='/'>去首页</router-link>
       <router-link to='/two'>去第二页</router-link>
